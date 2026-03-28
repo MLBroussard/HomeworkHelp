@@ -16,16 +16,49 @@ header {
 	text-align: center;
 }
 nav {
-	padding: 20px 50px;
-	background-color: yellow;
-	text-align: center;
-	color: brown;
+	padding: 20px;
+	color: darkgreen;
 	border-bottom-style: solid;
 	border-width: 5px;
+	margin-right: auto;
 }
 
+.horizontal-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+  
+}
+
+.horizontal-list li{
+	display: inline-block;
+}
+
+.horizontal-list li a{
+  display: block;
+  color: lightblue;
+  padding: 14px 16px;
+  border:5px solid #fff;
+  background-color: darkgreen;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.horizontal-list li a:hover {
+  background-color: #111111;
+  color: yellow;
+}
+
+ul {
+	list-style-type: square;
+}
+
+
 main {
-    max-width: 1200px;
+	 max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
@@ -76,10 +109,11 @@ main {
 	color: orange;
 }
 
-footer{
-	padding: 25px 50px;
-	background-color: gray;
-	text-align: center;
+.Kumba-jpg {
+	border: 5px;
+	solid: darkgreen;
+	margin:
+	float: left;
 }
 
 hr {
@@ -87,11 +121,13 @@ hr {
 	background-color: darkgreen;
 }
 
-a {
-	color:#ff5722;
+a{
+	color: orange;
 }
 
-footer a {
-    color: #ff5722;
-}
 
+footer{
+	padding: padding: 25px 50px;
+	background-color: darkgreen;
+	text-align: center;
+}
