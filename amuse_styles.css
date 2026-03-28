@@ -1,146 +1,247 @@
 html {
-	background-color: url("Images/Jungle-Background.png") center center / cover no-repeat fixed;
+    background: url("Images/Jungle-Background.png") center center / cover no-repeat fixed;
 }
 
 body {
-	margin: 0;
-	font-family: Georgia, 'Trebuchet MS', Helvetica, sans-serif;
-	color: #1f1f1f;
+    margin: 0;
+    font-family: Georgia, "Trebuchet MS", Verdana, sans-serif;
+    color: #1f1f1f;
 }
 
 /* Wrapper */
 #wrapper {
-	max-width: 1200px;
-	margin: 25px auto;
-	padding: 20px 30px;
-	background-color: rgba(245, 241, 220, 0.9);
-	border: 8px ridge #b8d68a;
-	border-radius: 24px;
+    width: 85%;
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 20px 30px;
+    background-color: rgba(245, 241, 220, 0.92);
+    border: 8px ridge #b8d68a;
+    border-radius: 24px;
 }
 
-div {
-	background-image: url("Images/Jungle-Background.png");
-	background-position: center;
-	padding: 20px 50px 10px;
-	border: 20px lightgreen;
-	border-style: ridge;
-	border-radius: 20px;
-	color: white;
-	font-family: Copperplate, "Courier New", Monospace;
-}
-
+/* Structural elements */
 header {
-	padding: 25px;
-	background-color: white;
-	color: darkgreen;
-	text-align: center;
+    background-color: #16214a;
+    color: #e7d89a;
+    padding: 25px;
+    text-align: center;
+    border-radius: 16px 16px 0 0;
 }
 
 nav {
-	padding: 20px;
-	color: darkgreen;
-	border-bottom-style: solid;
-	border-width: 5px;
-	margin-right: auto;
+    background-color: #b7ac79;
+    color: #1c2242;
+    padding: 18px;
+    text-align: center;
+    border-bottom: 4px solid #5f48d8;
 }
-
-.horizontal-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 10px;
-	overflow: hidden;
-	background-color: #333333;
-	text-align: center;
-
-}
-
-.horizontal-list li {
-	display: inline-block;
-}
-
-.horizontal-list li a {
-	display: block;
-	color: lightblue;
-	padding: 14px 16px;
-	border: 5px solid #fff;
-	background-color: darkgreen;
-	border-radius: 20px;
-	text-decoration: none;
-}
-
-.horizontal-list li a:hover {
-	background-color: #111111;
-	color: yellow;
-}
-
-ul {
-	list-style-type: square;
-}
-
 
 main {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 20px;
-	border-radius: 10px;
+    background-color: rgba(230, 230, 230, 0.88);
+    color: #5d2130;
+    padding: 25px;
 }
 
-.About-Us {
-	color: brown;
-	font-family: Monospace;
+footer {
+    background-color: #050816;
+    color: #d8d39c;
+    padding: 14px;
+    text-align: center;
+    border-radius: 0 0 16px 16px;
+}
+
+/* Headings */
+h1 {
+    margin: 10px 0 0;
+}
+
+h2 {
+    color: #d8d39c;
+}
+
+h3 {
+    color: #2f5f1e;
+}
+
+/* Specific section heading colors */
+.About-Us,
+.Park-Rides-Attractions,
+.Ride-Information,
+.Order-Tickets {
+    color: #d8d39c;
 }
 
 .Upcoming-Event {
-	color: orange;
+    color: #93c572;
 }
 
 .Related-Park-News {
-	color: red;
-}
-
-.Park-Rides-Attractions {
-	color: brown;
+    color: #5d48c8;
 }
 
 .Kumba {
-	color: orange;
+    color: #a34b1f;
 }
 
 .Iron-Gwazi {
-	color: red;
+    color: #7a1f3d;
 }
 
 .Tigris {
-	color: lightgreen;
+    color: #00695c;
 }
 
 .Cheetah-Hunt {
-	color: purple;
+    color: #5e3b8c;
 }
 
 .SheiKra {
-	color: black;
+    color: #0d47a1;
 }
 
-.Ride-Information {
-	color: orange;
+/* Navigation */
+.horizontal-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.Order-Tickets {
-	color: orange;
+.horizontal-list li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-.Kumba-jpg {
-	border: 5px;
-	color: darkgreen;
-	margin: left;
+.horizontal-list li a {
+    display: inline-block;
+    padding: 10px 14px;
+    background-color: #ffffff;
+    color: #1c2242;
+    border: 2px solid #3b3f72;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
+.horizontal-list li a:hover {
+    background-color: #1c2242;
+    color: #f3e7a8;
+}
+
+/* General links */
+main a,
+footer a {
+    color: #0d5c63;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+}
+
+/* Horizontal rule */
 hr {
-	height: 10px;
-	background-color: darkgreen;
+    height: 8px;
+    border: none;
+    background-color: #3d4e7a;
 }
 
-a {
-	color: orange;
+/* Rides page images */
+.ride-block {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.ride-block img {
+    float: left;
+    width: 250px;
+    margin: 0 18px 12px 0;
+    border: 4px solid #3d4e7a;
+}
+
+/* Table */
+.data-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 3px solid #2f355e;
+    width: 85%;
+    text-align: center;
+}
+
+.data-table caption {
+    caption-side: top;
+    text-align: right;
+    padding: 8px;
+    color: #5d48c8;
+    font-style: italic;
+}
+
+.data-table th,
+.data-table td {
+    border: 2px solid #2f355e;
+    padding: 10px;
+}
+
+.data-table th {
+    background-color: #1c2242;
+    color: #f0e3a2;
+}
+
+.data-table tr:nth-child(even) td {
+    background-color: #d8d2b0;
+    color: #2c1f1f;
+}
+
+.data-table tr:nth-child(odd) td {
+    background-color: #f4eed2;
+    color: #3c2f2f;
+}
+
+/* Form */
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d8d2b0;
+    border: 3px solid #2f355e;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f7f1d5;
+    border: 2px solid #3d4e7a;
+    width: 90%;
+}
+
+legend {
+    padding: 8px 12px;
+    background-color: #1c2242;
+    color: #f0e3a2;
+    border: 2px solid #3d4e7a;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* Form alignment */
+label {
+    display: inline-block;
+    width: 180px;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: 2px solid #1c2242;
+    background-color: #1c2242;
+    color: #f0e3a2;
+    border-radius: 10px;
+    font-weight: bold;
 }
