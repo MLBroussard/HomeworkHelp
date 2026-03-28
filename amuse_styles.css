@@ -8,13 +8,14 @@ div {
 	color: white;
 	font-family: Copperplate, "Courier New", Monospace;
 }
-	
+
 header {
 	padding: 25px;
 	background-color: white;
 	color: darkgreen;
 	text-align: center;
 }
+
 nav {
 	padding: 20px;
 	color: darkgreen;
@@ -24,32 +25,32 @@ nav {
 }
 
 .horizontal-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  overflow: hidden;
-  background-color: #333333;
-  text-align: center;
-  
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #333333;
+	text-align: center;
+
 }
 
-.horizontal-list li{
+.horizontal-list li {
 	display: inline-block;
 }
 
-.horizontal-list li a{
-  display: block;
-  color: lightblue;
-  padding: 14px 16px;
-  border:5px solid #fff;
-  background-color: darkgreen;
-  border-radius: 20px;
-  text-decoration: none;
+.horizontal-list li a {
+	display: block;
+	color: lightblue;
+	padding: 14px 16px;
+	border: 5px solid #fff;
+	background-color: darkgreen;
+	border-radius: 20px;
+	text-decoration: none;
 }
 
 .horizontal-list li a:hover {
-  background-color: #111111;
-  color: yellow;
+	background-color: #111111;
+	color: yellow;
 }
 
 ul {
@@ -58,17 +59,17 @@ ul {
 
 
 main {
-	 max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .About-Us {
 	color: brown;
 	font-family: Monospace;
 }
-	
+
 .Upcoming-Event {
 	color: orange;
 }
@@ -111,9 +112,8 @@ main {
 
 .Kumba-jpg {
 	border: 5px;
-	solid: darkgreen;
-	margin:
-	float: left;
+	color: darkgreen;
+	margin: left;
 }
 
 hr {
@@ -121,13 +121,6 @@ hr {
 	background-color: darkgreen;
 }
 
-a{
+a {
 	color: orange;
-}
-
-
-footer{
-	padding: padding: 25px 50px;
-	background-color: darkgreen;
-	text-align: center;
 }
