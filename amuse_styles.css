@@ -1,0 +1,97 @@
+div {
+	background-image: url("Images/Jungle-Background.png");
+	background-position: center;
+	padding: 20px 50px 10px;
+	border: 20px lightgreen;
+	border-style: ridge;
+	border-radius: 20px;
+	color: white;
+	font-family: Copperplate, "Courier New", Monospace;
+}
+	
+header {
+	padding: 25px;
+	background-color: white;
+	color: darkgreen;
+	text-align: center;
+}
+nav {
+	padding: 20px 50px;
+	background-color: yellow;
+	text-align: center;
+	color: brown;
+	border-bottom-style: solid;
+	border-width: 5px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.About-Us {
+	color: brown;
+	font-family: Monospace;
+}
+	
+.Upcoming-Event {
+	color: orange;
+}
+
+.Related-Park-News {
+	color: red;
+}
+
+.Park-Rides-Attractions {
+	color: brown;
+}
+
+.Kumba {
+	color: orange;
+}
+
+.Iron-Gwazi {
+	color: red;
+}
+
+.Tigris {
+	color: lightgreen;
+}
+
+.Cheetah-Hunt {
+	color: purple;
+}
+
+.SheiKra {
+	color: black;
+}
+
+.Ride-Information {
+	color: orange;
+}
+
+.Order-Tickets {
+	color: orange;
+}
+
+footer{
+	padding: 25px 50px;
+	background-color: gray;
+	text-align: center;
+}
+
+hr {
+	height: 10px;
+	background-color: darkgreen;
+}
+
+a {
+	color:#ff5722;
+}
+
+footer a {
+    color: #ff5722;
+}
+
