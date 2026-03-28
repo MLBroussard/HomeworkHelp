@@ -1,0 +1,21 @@
+1. Change the background color of the html to something other than white (color/image/gradient). Use the image in Figure1.
+2. The wrapper should center the page content within the browser (DO NOT center text). It should also have padding, a border & a background color. Determine a font family stack for the site (cannot use: “Times New Roman” or Arial). The edges of the page content must be rounded.
+3. Style EACH of the HTML5 structural elements mentioned above in step 1. Each element has at a minimum: padding, different background, and text colors. The header’s, nav’s, and footer’s content should be centered.
+4. The nav section has a border on the bottom to separate the nav & main sections.
+5. Provide different text styles for each of the h2 and h3. Each must be a different text color from the default color of that section & from each other.
+6. <hr> elements have a height of at least 6 pixels and have color.
+7. Hyperlinks (ones shown in related links area & footer) have a color other than the default blue & purple, and must be different from their section’s text colors. Do not style the pseudo states.
+8. Hyperlinks within the nav must be shown horizontal across the page, centered, rounded, padding, right margin, have color and text properties that distinguish them from the rest of the page, have borders, and not underlined.
+9. Hover effect for nav links ONLY should change the background and text color. Do not provide styles for the active, focus, visited, or link states
+10. Make the bullets on the unordered list of index.html a square instead of circular. (see figure 1)
+11. The images on the rides page should have border & margin properties. It should float to the left side, and the images should be set off to the side of the ride’s information.
+12. The ride images should line up with their respective name. You may need to add some HTML.
+13. The table should have border properties & formatted to be centered within the main section.
+14. The first row should have a different background & text colors from the rest of the table.
+15. The data rows should alternate background & text colors between odd & even rows.
+16. Add padding to the heading and data cells to improve readability of the cell’s content. Also, make the content of heading and data cells be centered.
+17. The caption element must be placed above the table, right aligned, have padding, and a different text color than the table cells & the color for the main section.
+18. Apply background properties and padding to the form and format the form to be centered on the page.
+19. Apply borders, margins (or padding), backgrounds, & width properties to each of the fieldsets.
+20. Apply borders, backgrounds, & padding (or margin) properties to style the legend elements. Also make the borders rounded.
+21. Style the form elements to line up and the submit button to be centered below the fieldsets.
